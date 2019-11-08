@@ -1,0 +1,18 @@
+SMAP
+pattern_005fforEach_jsp.java
+JSP
+*S JSP
+*F
++ 0 pattern_forEach.jsp
+pattern_forEach.jsp
+*L
+5,17:57
+21:98,12
+22:110
+22:140,12
+23:152
+23:181,5
+23,2:155
+24,3:113
+26,5:76
+*E

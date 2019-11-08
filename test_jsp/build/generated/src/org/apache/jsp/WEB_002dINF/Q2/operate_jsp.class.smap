@@ -1,0 +1,12 @@
+SMAP
+operate_jsp.java
+JSP
+*S JSP
+*F
++ 0 operate.jsp
+WEB-INF/Q2/operate.jsp
+*L
+1,9:44
+10,22:54
+31,5:76
+*E
