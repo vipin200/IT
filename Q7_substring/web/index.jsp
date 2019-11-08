@@ -16,13 +16,14 @@
     <body>
         <h1>Find Substring</h1>
         <form>
-            Enter String <input type="text" name="str">
-            Start : <input type="number" name="start">
-            End : <input type="number" name="end">
-            <input type="submit" value="Submit">
+            Enter String <input type="text" name="str"><br>
+            Start : <input type="number" name="start"><br>
+            End : <input type="number" name="end"><br>
+            <input type="submit" value="Submit"><br>
         </form>
         <c:if test="${param.str !=null && param.start !=null && param.end!=null}">
-            <sb:substring input="Tarun" start="1" end="3" />
+            <sb:substring input="${param.str}" start="${param.start}" end="${param.end}" /><br>
+            <sb:revstr input="${param.str}" />
         </c:if>    
     </body>
 </html>
